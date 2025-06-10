@@ -2,7 +2,7 @@ services:
   - type: web
     name: spam-checker
     env: python
-    buildCommand: ""
+    buildCommand: " pip install -r requirements.txt"
     startCommand: gunicorn app:app
     envVars:
       - key: MAIL_USERNAME
