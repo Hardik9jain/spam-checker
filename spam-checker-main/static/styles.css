@@ -1,0 +1,148 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Segoe UI', sans-serif;
+    background-image: url('sms.png'); /* Path to the image */
+    background-size: cover;            /* Cover the entire screen */
+    background-position: center;       /* Center the image */
+    background-attachment: fixed;      /* Keep background fixed while scrolling */
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background-color: #dc3545;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 600px;
+    height: 480px;
+    transform: translateX(-30px); 
+}
+textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    font-size: 14px;
+    resize: none;
+    margin-bottom: 15px;
+}
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+#result.spam {
+  background-color: #155724;
+  color: white;
+}
+.button-group {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+#clearBtn {
+  background-color: #ffc107;
+  color: #000;
+  font-size: 14px;
+  width: 100px;
+}
+
+#helpBtn {
+  background-color: #28a745;
+  color: white;
+  font-size: 14px;
+  width: 100px;
+}
+
+#exitBtn {
+  background-color: #000;
+  color: white;
+  font-size: 14px;
+  width: 100px;
+}
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+  justify-content: center; /* center buttons horizontally */
+}
+
+/* Uniform button sizing */
+.button-group button {
+  width: 130px;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Individual styles */
+#checkBtn {
+  background-color: #007bff;
+  color: white;
+}
+
+#categoryBtn {
+  background-color: #6f42c1;
+  color: white;
+}
+
+#onlyCategoryBtn {
+  background-color: #17a2b8;
+  color: white;
+  font-size: 14px;
+  width: 150px;
+}
+
+.button-group button:hover {
+  opacity: 0.85;
+}
+
+.top-right-button {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 2px;
+  flex-wrap: wrap; /* so it stays responsive on small screens */
+}
+
+.top-right-button {
+  position: absolute;
+  top: 00px;
+  right: 20px;
+}
+
+.top-right-button button {
+  padding: 10px 15px;
+  font-size: 14px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.top-right-button button:hover {
+  background-color: #0056b3;
+}

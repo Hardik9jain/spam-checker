@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Logs</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .log-entry {
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>User Logs</h2>
+    <a href="{{ url_for('index') }}">← Back</a>
+
+    {% if logs %}
+        {% for entry in logs %}
+            <div class="log-entry">
+                <strong>{{ entry.timestamp }}</strong> —
+                <strong>{{ entry.username or "Unknown" }}</strong>:
+                {{ entry.message }}
+            </div>
+        {% endfor %}
+    {% else %}
+        <p>No logs found.</p>
+    {% endif %}
+</body>
+</html>

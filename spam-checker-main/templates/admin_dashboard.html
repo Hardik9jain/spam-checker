@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Dashboard</title>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+        th { background-color: #f4f4f4; }
+    </style>
+</head>
+<body>
+    <h1>👮 Admin Dashboard</h1>
+    <p>Welcome, {{ session.username }}</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Timestamp</th>
+                <th>User</th>
+                <th>Message</th>
+                <th>Is Spam?</th>
+                <th>IP</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for entry in logs %}
+            <tr>
+                <td>{{ entry.timestamp }}</td>
+                <td>{{ entry.username }}</td>
+                <td>{{ entry.message }}</td>
+                <td>{{ entry.is_spam }}</td>
+                <td>{{ entry.ip }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

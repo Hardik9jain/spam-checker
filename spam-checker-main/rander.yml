@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: spam-checker
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn app:app
+    envVars:
+      - key: MAIL_USERNAME
+        value: hrsjain123@gmail.com
+      - key: MAIL_PASSWORD
+        value: fohpmazmuzbjkkec
+      - key: SECRET_KEY
+        value: your-secret-key
