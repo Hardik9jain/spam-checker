@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Spam Filter with Categories</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+</head>
+<style>
+  
+</style>
+<body>
+  
+  <div class="container">
+    <h1>Spam Filtering</h1>
+    <textarea id="messageInput" placeholder="Enter your message..."></textarea>
+    <button onclick="checkSpam()">Check for Spam</button>
+    <div class="top-left-button">
+  <a href="/dashboard" target="_blank"><button>📊 View Dashboard</button></a>
+  </div>
+    <div class="button-group">
+      <button id="onlyCategoryBtn" onclick="showCategoryOnly()">Category </button>
+      
+      <button id="clearBtn" onclick="clearText()">Clear</button>
+      <button id="exitBtn" onclick="exitApp()">Exit</button>
+    </div>
+    <script>
+  async function checkSpam() {
+    const message = document.getElementById("messageInput").value;
+    const res = await fetch("/check-spam", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({ message: message })
+    });
+
+    const data = await res.json();
+    const resultDiv = document.getElementById("result");
+    resultDiv.textContent = data.message;
+    resultDiv.className = data.is_spam ? "spam" : "clean";
+  }
+</script>
+
+    <div id="result"></div>
+    <div id="categoryResult"></div>
+  </div>
+  
+  <div class="top-right-button">
+    <a href="http://localhost:5001" target="_blank">
+  <button style="background-color: #28a745;">🤖 Check Spam (ML)</button>
+</a>
+   <a href="{{ url_for('admin_login') }}"><button>Admin Login</button></a>
+  </a>
+  <a href="{{ url_for('help_page') }}">
+      <button style="padding: 10px 15px; background-color: #28a745; color: white; border: none; border-radius: 5px; cursor: pointer;">
+          Help
+      </button>
+  </a>
+  <a href="{{ url_for('contact_page') }}">
+      <button style="padding: 10px 15px; background-color: #6c757d; color: white; border: none; border-radius: 5px; cursor: pointer;">
+          Contact
+      </button>
+  </a>
+  <a href="/login" style="text-decoration: none;">
+    <button style="background-color: #a42390; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+      🔐 Login
+    </button>
+  </a>
+  
+</div>
+
+  
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
