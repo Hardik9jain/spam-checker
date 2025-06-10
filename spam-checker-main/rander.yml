@@ -2,7 +2,7 @@ services:
   - type: web
     name: spam-checker
     env: python
-    buildCommand: ""
+    buildCommand: " pip install -r requirements.txt"
     startCommand: gunicorn app:app
     envVars:
       - key: MAIL_USERNAME
@@ -11,3 +11,9 @@ services:
         value: fohpmazmuzbjkkec
       - key: SECRET_KEY
         value: your-secret-key
+      - key: TWILIO_ACCOUNT_SID
+        value: AC6201d846e9946019d7a923858a7e06c3
+      - key: TWILIO_AUTH_TOKEN
+        value: AC6201d846e9946019d7a923858a7e06c3
+      - key: TWILIO_PHONE_NUMBER
+        value: +18105106447
