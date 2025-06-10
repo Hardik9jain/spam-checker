@@ -1,0 +1,188 @@
+[
+  {
+    "message": "Dear Candidate,\nThank you for your interest in AVASOFT. After careful preliminary evaluation, we regret to inform you that we will not be moving forward with your application at this time. This may be due to incomplete or inaccurate information, or the details not suiting the basic expectations of the job role, or other factors.\nWe appreciate your time and effort and wish you the best in your job search.\nRegards,\nAishwarya Kesavan\nHR Executive - AVASOFT\nAlpha City (SSPDL), 3rd Floor | Beta Block, Navalur | CH \u2013 600 130\nwww.avasoft.com (http://www.avasoft.com/)\n\n\nThe contents of this e-mail and any attachment(s) are confidential and intended for the named recipient(s) only. E-mail transmission is not guaranteed to be secure or error-free as information could be intercepted, corrupted, lost, destroyed, arrive late or incomplete, or may contain viruses in transmission. The email and its contents (with or without referred errors) shall therefore not attach any liability on the originator or AVASOFT or its affiliates. Views or opinions, if any, presented in this email are solely those of the author and may not necessarily reflect the views or opinions of AVASOFT or its affiliates. Any form of reproduction, dissemination, copying, disclosure, modification, distribution and / or publication of this message without the prior written consent of authorized representative of AVASOFT is strictly prohibited. If you have received this email in error please delete it and notify the sender immediately. Before opening any email and/or attachments, please check them for viruses and other defects.",
+    "is_spam": true,
+    "categories": [],
+    "predicted_label": "spam",
+    "actual_label": "spam",
+    "timestamp": "2025-04-25T00:32:42.376882",
+    "evaluation": "True Positive"
+  },
+  {
+    "message": "I see a cup of coffee animation",
+    "is_spam": true,
+    "categories": [],
+    "predicted_label": "spam",
+    "actual_label": "ham",
+    "timestamp": "2025-05-10T02:07:09.884332",
+    "evaluation": "False Positive"
+  },
+  {
+    "message": "congrats! you are shortlisted for an \u201conline group discussion\u201d of coditas solutions llp, pune | hiring for \u201cintern (software development)\u201d as fresher | recruitment drive organized by vibrantminds technologies pvt. ltd. |    greetings from vibrantminds technologies pvt. ltd. \u2013 a campus recruitment and online assessment & it training solutions company!   we, vibrantminds are happy to announce that the following candidates have been shortlisted for the online group discussion.    online group discussion schedule & further details:   company name: coditas solutions llp, pune position: intern (software development) internship duration: 06 months approx. stipend during internship: upto rs. 11,000/- per month. approx. package post internship: upto rs. 4,50,000/- per annum (based on performance during the internship, with a potential ctc of 4.5 lpa) job location: pune   next process: online group discussion date & time: today, 15th april 2025 at 03.00 pm sharp   google meet link: https://meet.google.com/ujh-hkpx-kqk   regards, vibrantminds technologies pvt. ltd. visit us: www.vibrantmindstech.com (http://www.vibrantmindstech.com/)  | 9503579517 | address: 2nd floor, viva building, near st. mary\u2019s church & vardhman petrol pump, mumbai- bangalore highway, warje, pune 411058 check our success stories: https://vibrantmindssuccessstories.blogspot.com/ instagram: https://www.instagram.com/vibrantminds_technologies/",
+    "is_spam": true,
+    "categories": [],
+    "predicted_label": "spam",
+    "actual_label": "ham",
+    "timestamp": "2025-05-10T02:09:13.420727",
+    "evaluation": "False Positive"
+  },
+  {
+    "message": "congrats! you are shortlisted for an \u201conline group discussion\u201d of coditas solutions llp, pune | hiring for \u201cintern (software development)\u201d as fresher | recruitment drive organized by vibrantminds technologies pvt. ltd. |    greetings from vibrantminds technologies pvt. ltd. \u2013 a campus recruitment and online assessment & it training solutions company!   we, vibrantminds are happy to announce that the following candidates have been shortlisted for the online group discussion.    online group discussion schedule & further details:   company name: coditas solutions llp, pune position: intern (software development) internship duration: 06 months approx. stipend during internship: upto rs. 11,000/- per month. approx. package post internship: upto rs. 4,50,000/- per annum (based on performance during the internship, with a potential ctc of 4.5 lpa) job location: pune   next process: online group discussion date & time: today, 15th april 2025 at 03.00 pm sharp   google meet link: https://meet.google.com/ujh-hkpx-kqk   regards, vibrantminds technologies pvt. ltd. visit us: www.vibrantmindstech.com (http://www.vibrantmindstech.com/)  | 9503579517 | address: 2nd floor, viva building, near st. mary\u2019s church & vardhman petrol pump, mumbai- bangalore highway, warje, pune 411058 check our success stories: https://vibrantmindssuccessstories.blogspot.com/ instagram: https://www.instagram.com/vibrantminds_technologies/",
+    "is_spam": true,
+    "categories": [],
+    "predicted_label": "spam",
+    "actual_label": "spam",
+    "timestamp": "2025-05-10T02:09:25.436210",
+    "evaluation": "True Positive"
+  },
+  {
+    "message": "URGENT! You have won a 1 week FREE membership in our \u00e5\u00a3100,000 Prize Jackpot! Txt the word: CLAIM to No: 81010 T&C www.dbuk.net LCCLTD POBOX 4403LDNW1A7RW18",
+    "is_spam": true,
+    "categories": [],
+    "predicted_label": "spam",
+    "actual_label": "spam",
+    "timestamp": "2025-05-10T03:45:23.758452",
+    "evaluation": "True Positive"
+  },
+  {
+    "message": "URGENT! You have won a 1 week FREE membership in our \u00e5\u00a3100,000 Prize Jackpot! Txt the word: CLAIM tocongrats! you are shortlisted for an \u201conline group discussion\u201d of coditas solutions llp, pune | hiring for \u201cintern (software development)\u201d as fresher | recruitment drive organized by vibrantminds technologies pvt. ltd. |    greetings from vibrantminds technologies pvt. ltd. \u2013 a campus recruitment and online assessment & it training solutions company!   we, vibrantminds are happy to announce that the following candidates have been shortlisted for the online group discussion.    online group discussion schedule & further details:   company name: coditas solutions llp, pune position: intern (software development) internship duration: 06 months approx. stipend during internship: upto rs. 11,000/- per month. approx. package post internship: upto rs. 4,50,000/- per annum (based on performance during the internship, with a potential ctc of 4.5 lpa) job location: pune   next process: online group discussion date & time: today, 15th april 2025 at 03.00 pm sharp   google meet link: https://meet.google.com/ujh-hkpx-kqk   regards, vibrantminds technologies pvt. ltd. visit us: www.vibrantmindstech.com (http://www.vibrantmindstech.com/)  | 9503579517 | address: 2nd floor, viva building, near st. mary\u2019s church & vardhman petrol pump, mumbai- bangalore highway, warje, pune 411058 check our success stories: https://vibrantmindssuccessstories.blogspot.com/ instagram: https://www.instagram.com/vibrantminds_technologies/ No: 81010 T&C www.dbuk.net LCCLTD POBOX 4403LDNW1A7RW18",
+    "is_spam": true,
+    "categories": [],
+    "predicted_label": "spam",
+    "actual_label": "ham",
+    "timestamp": "2025-05-10T03:46:48.062294",
+    "evaluation": "False Positive"
+  },
+  {
+    "message": "congrats! you are shortlisted for an \u201conline group discussion\u201d of coditas solutions llp, pune | hiring for \u201cintern (software development)\u201d as fresher | recruitment drive organized by vibrantminds technologies pvt. ltd. |    greetings from vibrantminds technologies pvt. ltd. \u2013 a campus recruitment and online assessment & it training solutions company!   we, vibrantminds are happy to announce that the following candidates have been shortlisted for the online group discussion.    online group discussion schedule & further details:   company name: coditas solutions llp, pune position: intern (software development) internship duration: 06 months approx. stipend during internship: upto rs. 11,000/- per month. approx. package post internship: upto rs. 4,50,000/- per annum (based on performance during the internship, with a potential ctc of 4.5 lpa) job location: pune   next process: online group discussion date & time: today, 15th april 2025 at 03.00 pm sharp   google meet link: https://meet.google.com/ujh-hkpx-kqk   regards, vibrantminds technologies pvt. ltd. visit us: www.vibrantmindstech.com (http://www.vibrantmindstech.com/)  | 9503579517 | address: 2nd floor, viva building, near st. mary\u2019s church & vardhman petrol pump, mumbai- bangalore highway, warje, pune 411058 check our success stories: https://vibrantmindssuccessstories.blogspot.com/ instagram: https://www.instagram.com/vibrantminds_technologies/",
+    "is_spam": true,
+    "categories": [],
+    "predicted_label": "spam",
+    "actual_label": "ham",
+    "timestamp": "2025-05-10T03:47:06.134151",
+    "evaluation": "False Positive"
+  },
+  {
+    "message": "congrats! you are shortlisted for an \u201conline group discussion\u201d of coditas solutions llp, pune | hiring for \u201cintern (software development)\u201d as fresher | recruitment drive organized by vibrantminds technologies pvt. ltd. |    greetings from vibrantminds technologies pvt. ltd. \u2013 a campus recruitment and online assessment & it training solutions company!   we, vibrantminds are happy to announce that the following candidates have been shortlisted for the online group discussion.    online group discussion schedule & further details:   company name: coditas solutions llp, pune position: intern (software development) internship duration: 06 months approx. stipend during internship: upto rs. 11,000/- per month. approx. package post internship: upto rs. 4,50,000/- per annum (based on performance during the internship, with a potential ctc of 4.5 lpa) job location: pune   next process: online group discussion date & time: today, 15th april 2025 at 03.00 pm sharp   google meet link: https://meet.google.com/ujh-hkpx-kqk   regards, vibrantminds technologies pvt. ltd. visit us: www.vibrantmindstech.com (http://www.vibrantmindstech.com/)  | 9503579517 | address: 2nd floor, viva building, near st. mary\u2019s church & vardhman petrol pump, mumbai- bangalore highway, warje, pune 411058 check our success stories: https://vibrantmindssuccessstories.blogspot.com/ instagram: https://www.instagram.com/vibrantminds_technologies/",
+    "is_spam": true,
+    "categories": [],
+    "predicted_label": "spam",
+    "actual_label": "ham",
+    "timestamp": "2025-05-10T03:47:07.335454",
+    "evaluation": "False Positive"
+  },
+  {
+    "message": "congrats! you are shortlisted for an \u201conline group discussion\u201d of coditas solutions llp, pune | hiring for \u201cintern (software development)\u201d as fresher | recruitment drive organized by vibrantminds technologies pvt. ltd. |    greetings from vibrantminds technologies pvt. ltd. \u2013 a campus recruitment and online assessment & it training solutions company!   we, vibrantminds are happy to announce that the following candidates have been shortlisted for the online group discussion.    online group discussion schedule & further details:   company name: coditas solutions llp, pune position: intern (software development) internship duration: 06 months approx. stipend during internship: upto rs. 11,000/- per month. approx. package post internship: upto rs. 4,50,000/- per annum (based on performance during the internship, with a potential ctc of 4.5 lpa) job location: pune   next process: online group discussion date & time: today, 15th april 2025 at 03.00 pm sharp   google meet link: https://meet.google.com/ujh-hkpx-kqk   regards, vibrantminds technologies pvt. ltd. visit us: www.vibrantmindstech.com (http://www.vibrantmindstech.com/)  | 9503579517 | address: 2nd floor, viva building, near st. mary\u2019s church & vardhman petrol pump, mumbai- bangalore highway, warje, pune 411058 check our success stories: https://vibrantmindssuccessstories.blogspot.com/ instagram: https://www.instagram.com/vibrantminds_technologies/",
+    "is_spam": true,
+    "categories": [],
+    "predicted_label": "spam",
+    "actual_label": "ham",
+    "timestamp": "2025-05-10T03:47:41.656056",
+    "evaluation": "False Positive"
+  },
+  {
+    "message": "congrats! you are shortlisted for an \u201conline group discussion\u201d of coditas solutions llp, pune | hiring for \u201cintern (software development)\u201d as fresher | recruitment drive organized by vibrantminds technologies pvt. ltd. |    greetings from vibrantminds technologies pvt. ltd. \u2013 a campus recruitment and online assessment & it training solutions company!   we, vibrantminds are happy to announce that the following candidates have been shortlisted for the online group discussion.    online group discussion schedule & further details:   company name: coditas solutions llp, pune position: intern (software development) internship duration: 06 months approx. stipend during internship: upto rs. 11,000/- per month. approx. package post internship: upto rs. 4,50,000/- per annum (based on performance during the internship, with a potential ctc of 4.5 lpa) job location: pune   next process: online group discussion date & time: today, 15th april 2025 at 03.00 pm sharp   google meet link: https://meet.google.com/ujh-hkpx-kqk   regards, vibrantminds technologies pvt. ltd. visit us: www.vibrantmindstech.com (http://www.vibrantmindstech.com/)  | 9503579517 | address: 2nd floor, viva building, near st. mary\u2019s church & vardhman petrol pump, mumbai- bangalore highway, warje, pune 411058 check our success stories: https://vibrantmindssuccessstories.blogspot.com/ instagram: https://www.instagram.com/vibrantminds_technologies/",
+    "is_spam": true,
+    "categories": [],
+    "predicted_label": "spam",
+    "actual_label": "ham",
+    "timestamp": "2025-05-10T03:50:25.867253",
+    "evaluation": "False Positive"
+  },
+  {
+    "message": "congrats! you are shortlisted for an \u201conline group discussion\u201d of coditas solutions llp, pune | hiring for \u201cintern (software development)\u201d as fresher | recruitment drive organized by vibrantminds technologies pvt. ltd. |    greetings from vibrantminds technologies pvt. ltd. \u2013 a campus recruitment and online assessment & it training solutions company!   we, vibrantminds are happy to announce that the following candidates have been shortlisted for the online group discussion.    online group discussion schedule & further details:   company name: coditas solutions llp, pune position: intern (software development) internship duration: 06 months approx. stipend during internship: upto rs. 11,000/- per month. approx. package post internship: upto rs. 4,50,000/- per annum (based on performance during the internship, with a potential ctc of 4.5 lpa) job location: pune   next process: online group discussion date & time: today, 15th april 2025 at 03.00 pm sharp   google meet link: https://meet.google.com/ujh-hkpx-kqk   regards, vibrantminds technologies pvt. ltd. visit us: www.vibrantmindstech.com (http://www.vibrantmindstech.com/)  | 9503579517 | address: 2nd floor, viva building, near st. mary\u2019s church & vardhman petrol pump, mumbai- bangalore highway, warje, pune 411058 check our success stories: https://vibrantmindssuccessstories.blogspot.com/ instagram: https://www.instagram.com/vibrantminds_technologies/",
+    "is_spam": true,
+    "categories": [],
+    "predicted_label": "spam",
+    "actual_label": "ham",
+    "timestamp": "2025-05-10T03:50:26.902497",
+    "evaluation": "False Positive"
+  },
+  {
+    "message": "congrats! you are shortlisted for an \u201conline group discussion\u201d of coditas solutions llp, pune | hiring for \u201cintern (software development)\u201d as fresher | recruitment drive organized by vibrantminds technologies pvt. ltd. |    greetings from vibrantminds technologies pvt. ltd. \u2013 a campus recruitment and online assessment & it training solutions company!   we, vibrantminds are happy to announce that the following candidates have been shortlisted for the online group discussion.    online group discussion schedule & further details:   company name: coditas solutions llp, pune position: intern (software development) internship duration: 06 months approx. stipend during internship: upto rs. 11,000/- per month. approx. package post internship: upto rs. 4,50,000/- per annum (based on performance during the internship, with a potential ctc of 4.5 lpa) job location: pune   next process: online group discussion date & time: today, 15th april 2025 at 03.00 pm sharp   google meet link: https://meet.google.com/ujh-hkpx-kqk   regards, vibrantminds technologies pvt. ltd. visit us: www.vibrantmindstech.com (http://www.vibrantmindstech.com/)  | 9503579517 | address: 2nd floor, viva building, near st. mary\u2019s church & vardhman petrol pump, mumbai- bangalore highway, warje, pune 411058 check our success stories: https://vibrantmindssuccessstories.blogspot.com/ instagram: https://www.instagram.com/vibrantminds_technologies/",
+    "is_spam": true,
+    "categories": [],
+    "predicted_label": "spam",
+    "actual_label": "ham",
+    "timestamp": "2025-05-10T03:50:28.140905",
+    "evaluation": "False Positive"
+  },
+  {
+    "message": "URGENT! You have won a 1 week FREE membership in our \u00e5\u00a3100,000 Prize Jackpot! Txt the word: CLAIM to No: 81010 T&C www.dbuk.net LCCLTD POBOX 4403LDNW1A7RW18",
+    "is_spam": true,
+    "categories": [],
+    "predicted_label": "spam",
+    "actual_label": "spam",
+    "timestamp": "2025-05-10T03:51:42.331104",
+    "evaluation": "True Positive"
+  },
+  {
+    "message": "Free entry in 2 a wkly comp to win FA Cup final tkts 21st May 2005. Text FA to 87121 to receive entry question(std txt rate)T&C's apply 08452810075over18's,,,",
+    "is_spam": true,
+    "categories": [],
+    "predicted_label": "spam",
+    "actual_label": "spam",
+    "timestamp": "2025-05-13T00:29:56.065222",
+    "evaluation": "True Positive"
+  },
+  {
+    "message": "Free entry in 2 a wkly comp to win FA Cup final tkts 21st May 2005. Text FA to 87121 to receive entry question(std txt rate)T&C's apply 08452810075over18's,,,",
+    "is_spam": true,
+    "categories": [],
+    "predicted_label": "spam",
+    "actual_label": "ham",
+    "timestamp": "2025-05-13T00:30:08.357468",
+    "evaluation": "False Positive"
+  },
+  {
+    "message": "Dear Student,\n\nI hope you are doing well!\n\nWe are excited to offer you an incredible opportunity to join us as a Campus Ambassador in collaboration with Microsoft & Wipro DICE ID. This is your chance to represent Wayspire EdTech Pvt. Ltd., promote career-enhancing programs on your campus, and gain invaluable experience.\n\nAs a Campus Ambassador, you\u2019ll benefit from:\n\nAn Internship Certificate upon successful completion.\nOpportunities for a Pre-Placement Offer (PPO).\nA Letter of Recommendation (LOR) to boost your academic and professional profile.\nA Stipend of up to \u20b925,000, based on performance.\nEnhanced leadership and communication skills.\nExclusive rewards and networking opportunities with industry experts.\nTo get started, kindly fill out this Google Form to express your interest and provide your details:\nForm Link: https://forms.gle/uZcu7TCuNU4ytZti7\n\nWe look forward to collaborating with you and empowering students on your campus with world-class career-building opportunities.\n\nFeel free to reply to this email if you have any questions. We\u2019re here to help!\n\nThanks & Regards\n\nSumit Singh\nBusiness Development Associate\nWayspire Ed Tech Pvt. Ltd.\nM: +91 92668 00475\nE: sumit@wayspire.in",
+    "is_spam": true,
+    "categories": [],
+    "predicted_label": "spam",
+    "actual_label": "",
+    "timestamp": "2025-06-09T22:12:06.447627"
+  },
+  {
+    "message": "Dear Student,\n\nI hope you are doing well!\n\nWe are excited to offer you an incredible opportunity to join us as a Campus Ambassador in collaboration with Microsoft & Wipro DICE ID. This is your chance to represent Wayspire EdTech Pvt. Ltd., promote career-enhancing programs on your campus, and gain invaluable experience.\n\nAs a Campus Ambassador, you\u2019ll benefit from:\n\nAn Internship Certificate upon successful completion.\nOpportunities for a Pre-Placement Offer (PPO).\nA Letter of Recommendation (LOR) to boost your academic and professional profile.\nA Stipend of up to \u20b925,000, based on performance.\nEnhanced leadership and communication skills.\nExclusive rewards and networking opportunities with industry experts.\nTo get started, kindly fill out this Google Form to express your interest and provide your details:\nForm Link: https://forms.gle/uZcu7TCuNU4ytZti7\n\nWe look forward to collaborating with you and empowering students on your campus with world-class career-building opportunities.\n\nFeel free to reply to this email if you have any questions. We\u2019re here to help!\n\nThanks & Regards\n\nSumit Singh\nBusiness Development Associate\nWayspire Ed Tech Pvt. Ltd.\nM: +91 92668 00475\nE: sumit@wayspire.in",
+    "is_spam": true,
+    "categories": [],
+    "predicted_label": "spam",
+    "actual_label": "",
+    "timestamp": "2025-06-10T01:46:37.628580"
+  },
+  {
+    "message": "dear candidate, thank you for your interest in avasoft. after careful preliminary evaluation, we regret to inform you that we will not be moving forward with your application at this time. this may be due to incomplete or inaccurate information, or the details not suiting the basic expectations of the job role, or other factors. we appreciate your time and effort and wish you the best in your job search. regards, aishwarya kesavan hr executive - avasoft alpha city (sspdl), 3rd floor | beta block, navalur | ch \u2013 600 130 www.avasoft.com (http://www.avasoft.com/) the contents of this e-mail and any attachment(s) are confidential and intended for the named recipient(s) only. e-mail transmission is not guaranteed to be secure or error-free as information could be intercepted, corrupted, lost, destroyed, arrive late or incomplete, or may contain viruses in transmission. the email and its contents (with or without referred errors) shall therefore not attach any liability on the originator or avasoft or its affiliates. views or opinions, if any, presented in this email are solely those of the author and may not necessarily reflect the views or opinions of avasoft or its affiliates. any form of reproduction, dissemination, copying, disclosure, modification, distribution and / or publication of this message without the prior written consent of authorized representative of avasoft is strictly prohibited. if you have received this email in error please delete it and notify the sender immediately. before opening any email and/or attachments, please check them for viruses and other defects.",
+    "is_spam": true,
+    "categories": [],
+    "predicted_label": "spam",
+    "actual_label": "spam",
+    "timestamp": "2025-06-10T03:09:34.657357",
+    "evaluation": "True Positive"
+  },
+  {
+    "message": "dear candidate, thank you for your interest in avasoft. after careful preliminary evaluation, we regret to inform you that we will not be moving forward with your application at this time. this may be due to incomplete or inaccurate information, or the details not suiting the basic expectations of the job role, or other factors. we appreciate your time and effort and wish you the best in your job search. regards, aishwarya kesavan hr executive - avasoft alpha city (sspdl), 3rd floor | beta block, navalur | ch \u2013 600 130 www.avasoft.com (http://www.avasoft.com/) the contents of this e-mail and any attachment(s) are confidential and intended for the named recipient(s) only. e-mail transmission is not guaranteed to be secure or error-free as information could be intercepted, corrupted, lost, destroyed, arrive late or incomplete, or may contain viruses in transmission. the email and its contents (with or without referred errors) shall therefore not attach any liability on the originator or avasoft or its affiliates. views or opinions, if any, presented in this email are solely those of the author and may not necessarily reflect the views or opinions of avasoft or its affiliates. any form of reproduction, dissemination, copying, disclosure, modification, distribution and / or publication of this message without the prior written consent of authorized representative of avasoft is strictly prohibited. if you have received this email in error please delete it and notify the sender immediately. before opening any email and/or attachments, please check them for viruses and other defects.",
+    "is_spam": true,
+    "categories": [],
+    "predicted_label": "spam",
+    "actual_label": "spam",
+    "timestamp": "2025-06-10T03:28:37.587721",
+    "evaluation": "True Positive"
+  },
+  {
+    "message": "dear candidate, thank you for your interest in avasoft. after careful preliminary evaluation, we regret to inform you that we will not be moving forward with your application at this time. this may be due to incomplete or inaccurate information, or the details not suiting the basic expectations of the job role, or other factors. we appreciate your time and effort and wish you the best in your job search. regards, aishwarya kesavan hr executive - avasoft alpha city (sspdl), 3rd floor | beta block, navalur | ch \u2013 600 130 www.avasoft.com (http://www.avasoft.com/) the contents of this e-mail and any attachment(s) are confidential and intended for the named recipient(s) only. e-mail transmission is not guaranteed to be secure or error-free as information could be intercepted, corrupted, lost, destroyed, arrive late or incomplete, or may contain viruses in transmission. the email and its contents (with or without referred errors) shall therefore not attach any liability on the originator or avasoft or its affiliates. views or opinions, if any, presented in this email are solely those of the author and may not necessarily reflect the views or opinions of avasoft or its affiliates. any form of reproduction, dissemination, copying, disclosure, modification, distribution and / or publication of this message without the prior written consent of authorized representative of avasoft is strictly prohibited. if you have received this email in error please delete it and notify the sender immediately. before opening any email and/or attachments, please check them for viruses and other defects.",
+    "is_spam": true,
+    "categories": [],
+    "predicted_label": "spam",
+    "actual_label": "ham",
+    "timestamp": "2025-06-10T03:28:57.194651",
+    "evaluation": "False Positive"
+  },
+  {
+    "message": "WINNER!! As a valued network customer you have been selected to receivea \u00e5\u00a3900 prize reward! To claim call 09061701461. Claim code KL341. Valid 12 hours only.\t\t\t\nHad your mobile 11 months or more? U R entitled to Update to the latest colour mobiles with camera for Free! Call The Mobile Update Co FREE on 08002986030\t\t\t\n",
+    "is_spam": true,
+    "categories": [],
+    "predicted_label": "spam",
+    "actual_label": "",
+    "timestamp": "2025-06-10T12:03:12.923315"
+  }
+]

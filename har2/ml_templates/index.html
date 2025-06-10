@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Spam Filter (ML)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            background: #4E004E;
+            margin: 30px auto;
+            padding: 20px;
+            max-width: 600px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        textarea, input[type=text] {
+            width: 95%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #result, #evaluationResult {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Spam Detection with ML</h1>
+        <form id="spamForm">
+            <textarea id="messageInput" placeholder="Enter your message..." rows="5"></textarea><br>
+            <input type="text" id="actualLabel" placeholder="Actual label (optional: spam/ham)" /><br>
+            <button type="submit">Check Spam</button>
+        </form>
+        <div id="result"></div>
+        <div id="evaluationResult"></div>
+        <a href="/evaluation" target="_blank"><button>📊 View Evaluation Stats</button></a>
+    </div>
+    <script>
+        document.getElementById("spamForm").addEventListener("submit", async function(e) {
+            e.preventDefault();
+            const message = document.getElementById("messageInput").value;
+            const actual = document.getElementById("actualLabel").value;
+
+            const res = await fetch("/checkspam_ml", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({ message, actual })
+            });
+
+            const data = await res.json();
+            const resultDiv = document.getElementById("result");
+            resultDiv.innerText = data.message;
+            const evalDiv = document.getElementById("evaluationResult");
+            evalDiv.innerText = data.evaluation ? "Evaluation: " + data.evaluation : "";
+        });
+    </script>
+</body>
+</html>

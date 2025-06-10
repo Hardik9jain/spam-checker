@@ -1,0 +1,84 @@
+[
+  {
+    "username": "john",
+    "email": "hrsjain123@gmail.com",
+    "password": "1234",
+    "role": "user"
+  },
+  {
+    "username": "jane",
+    "email": "hrsjain123@gmail.com",
+    "password": "abcd",
+    "role": "user"
+  },
+  {
+    "username": "abrakadabra",
+    "email": "hrsjain123@gmail.com",
+    "password": "gilligillichoo",
+    "role": "user"
+  },
+  {
+    "username": "lakshy_j",
+    "email": "lakshyjain192@gmail.com",
+    "password": "123",
+    "role": "user"
+  },
+  {
+    "username": "E",
+    "email": "hrsjain123@gmail.com",
+    "password": "E",
+    "role": "user"
+  },
+  {
+    "username": "F",
+    "email": "hrsjain123@gmail.com",
+    "password": "S",
+    "role": "user"
+  },
+  {
+    "username": "hi",
+    "email": "hrsjain123@gmail.com",
+    "password": "hi",
+    "role": "user"
+  },
+  {
+    "username": "admin",
+    "email": "hrsjain123@gmail.com",
+    "password": "admin123",
+    "role": "admin"
+  },
+  {
+    "username": "h",
+    "email": "lakshyjain192@gmail.com",
+    "password": "h"
+  },
+  {
+    "username": "L__D",
+    "email": "lakshyajainlakshyajain63@gmail.com",
+    "password": "LA"
+  },
+  {
+    "username": "g",
+    "email": "hrsjain123@gmail.com",
+    "password": "123",
+    "phone": "+919429369064"
+  },
+  {
+    "username": "lo",
+    "email": "hrsjain123@gmail.com",
+    "password": "123",
+    "phone": "+919429369064"
+  },
+  {
+    "username": "lo",
+    "email": "hrsjain123@gmail.com",
+    "password": "123",
+    "phone": "+919429369064"
+  },
+  {
+    "username": "jj",
+    "email": "hrsjain123@gmail.com",
+    "password": "123",
+    "phone": "+919429369064"
+  }
+]

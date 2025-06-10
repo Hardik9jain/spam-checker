@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Analytics Dashboard</title>
+ <style>
+/* General Body */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #e8f0ff, #ffffff);
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Main Container */
+.dashboard {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+  color: #222;
+  margin-bottom: 30px;
+}
+
+/* Analytics Grid */
+.analytics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  margin-bottom: 20px;
+}
+
+/* Cards */
+.card {
+  background: #f9fbfd;
+  border-radius: 12px;
+  padding: 25px;
+  position: relative;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-left: 6px solid #007bff;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Color Variants */
+.card.green { border-left-color: #28a745; }
+.card.red { border-left-color: #dc3545; }
+.card.orange { border-left-color: #ffc107; }
+
+.card h2 {
+  font-size: 16px;
+  margin: 0;
+  color: #555;
+  letter-spacing: 0.5px;
+}
+
+.card .value {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #007bff;
+}
+
+/* Back Button */
+.back-button {
+  display: block;
+  width: fit-content;
+  margin: 30px auto 0;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  .card .value {
+    font-size: 28px;
+  }
+
+  .dashboard {
+    padding: 20px;
+  }
+}
+
+</style>
+  <script>
+        function toggleMessages(id) {
+            const section = document.getElementById(id);
+            if (section.style.display === "none") {
+                section.style.display = "block";
+            } else {
+                section.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+  <div class="container">
+    <h1>📊 Spam Filter Dashboard</h1>
+    <p><strong>Total Messages:</strong> {{ stats.total }}</p>
+    <p><strong>Spam:</strong> {{ stats.spam }}</p>
+    <p><strong>Non-Spam:</strong> {{ stats.non_spam }}</p>
+
+     
+<hr>
+
+    <button class="btn" onclick="toggleMessages('spamSection')">🚫 View Spam Messages</button>
+    <div id="spamSection" class="hidden">
+        {% if spam_messages %}
+            <ul>
+                {% for msg in spam_messages %}
+                    <li>{{ msg }}</li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No spam messages found.</p>
+        {% endif %}
+    </div>
+
+    <br>
+
+    <button class="btn" onclick="toggleMessages('nonSpamSection')">✅ View Non-Spam Messages</button>
+    <div id="nonSpamSection" class="hidden">
+        {% if non_spam_messages %}
+            <ul>
+                {% for msg in non_spam_messages %}
+                    <li>{{ msg }}</li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No non-spam messages found.</p>
+        {% endif %}
+    </div>
+       {# {% for category, count in stats.categories.items() %}
+  <p>{{ category }}: {{ count }}</p>
+{% endfor %} #}
+    <a href="{{ url_for('index') }}">← Back to Home</a>
+  </div>
+</body>
+</html>

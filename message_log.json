@@ -1,0 +1,344 @@
+[
+  {
+    "message": "You won a prize!",
+    "is_spam": true,
+    "predicted_label": "spam",
+    "actual_label": "spam",
+    "evaluation": "True Positive",
+    "username": "test_user",
+    "timestamp": "2025-04-29T10:00:00",
+    "ip": "127.0.0.1",
+    "user_agent": "TestAgent"
+  },
+  {
+    "message": "you are selected",
+    "is_spam": true,
+    "predicted_label": "spam",
+    "actual_label": "spam",
+    "evaluation": "True Positive",
+    "username": "test_user",
+    "timestamp": "2025-04-29T10:00:00",
+    "ip": "127.0.0.1",
+    "user_agent": "TestAgent"
+  },
+  {
+    "message": "you are chosen",
+    "is_spam": true,
+    "predicted_label": "spam",
+    "actual_label": "spam",
+    "evaluation": "True Positive",
+    "username": "test_user",
+    "timestamp": "2025-04-29T10:00:00",
+    "ip": "127.0.0.1",
+    "user_agent": "TestAgent"
+  },
+  {
+    "message": "Reminder: your meeting is at 2PM.",
+    "is_spam": false,
+    "predicted_label": "ham",
+    "actual_label": "ham",
+    "evaluation": "True Negative",
+    "username": "test_user",
+    "timestamp": "2025-04-29T10:01:00",
+    "ip": "127.0.0.1",
+    "user_agent": "TestAgent"
+  },
+  {
+    "message": "Reminder: your interview is scheduled.",
+    "is_spam": false,
+    "predicted_label": "ham",
+    "actual_label": "ham",
+    "evaluation": "True Negative",
+    "username": "test_user",
+    "timestamp": "2025-04-29T10:01:00",
+    "ip": "127.0.0.1",
+    "user_agent": "TestAgent"
+  },
+  {
+    "message": "Click here to claim your money",
+    "is_spam": true,
+    "predicted_label": "spam",
+    "actual_label": "ham",
+    "evaluation": "False Positive",
+    "username": "test_user",
+    "timestamp": "2025-04-29T10:02:00",
+    "ip": "127.0.0.1",
+    "user_agent": "TestAgent"
+  },
+  {
+    "message": "you won various exciting prizes.",
+    "is_spam": true,
+    "predicted_label": "spam",
+    "actual_label": "ham",
+    "evaluation": "False Positive",
+    "username": "test_user",
+    "timestamp": "2025-04-29T10:02:00",
+    "ip": "127.0.0.1",
+    "user_agent": "TestAgent"
+  },
+  {
+    "message": "This is a limited time offer!",
+    "is_spam": false,
+    "predicted_label": "ham",
+    "actual_label": "spam",
+    "evaluation": "False Negative",
+    "username": "test_user",
+    "timestamp": "2025-04-29T10:03:00",
+    "ip": "127.0.0.1",
+    "user_agent": "TestAgent"
+  },
+  {
+    "message": "dear candidate, thank you for your interest in avasoft. after careful preliminary evaluation, we regret to inform you that we will not be moving forward with your application at this time. this may be due to incomplete or inaccurate information, or the details not suiting the basic expectations of the job role, or other factors. we appreciate your time and effort and wish you the best in your job search. regards, aishwarya kesavan hr executive - avasoft alpha city (sspdl), 3rd floor | beta block, navalur | ch \u2013 600 130 www.avasoft.com (http://www.avasoft.com/) the contents of this e-mail and any attachment(s) are confidential and intended for the named recipient(s) only. e-mail transmission is not guaranteed to be secure or error-free as information could be intercepted, corrupted, lost, destroyed, arrive late or incomplete, or may contain viruses in transmission. the email and its contents (with or without referred errors) shall therefore not attach any liability on the originator or avasoft or its affiliates. views or opinions, if any, presented in this email are solely those of the author and may not necessarily reflect the views or opinions of avasoft or its affiliates. any form of reproduction, dissemination, copying, disclosure, modification, distribution and / or publication of this message without the prior written consent of authorized representative of avasoft is strictly prohibited. if you have received this email in error please delete it and notify the sender immediately. before opening any email and/or attachments, please check them for viruses and other defects.",
+    "is_spam": true,
+    "predicted_label": "spam",
+    "evaluation": null,
+    "timestamp": "2025-04-29T03:54:17.699624",
+    "username": "abrakadabra",
+    "ip": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0"
+  },
+  {
+    "message": "URGENT! You have won a 1 week FREE membership in our \u00a3100,000 Prize Jackpot!",
+    "is_spam": true,
+    "categories": [],
+    "predicted_label": "spam",
+    "actual_label": null,
+    "username": "abrakadabra",
+    "ip": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0",
+    "timestamp": "2025-04-29T03:10:33.527865"
+  },
+  {
+    "message": "URGENT! You have won a 1 week FREE membership in our \u00a3100,000 Prize Jackpot!",
+    "is_spam": true,
+    "categories": [],
+    "predicted_label": "spam",
+    "actual_label": null,
+    "username": "abrakadabra",
+    "ip": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0",
+    "timestamp": "2025-04-29T03:17:33.612607"
+  },
+  {
+    "message": "URGENT! You have won a 1 week FREE membership in our \u00a3100,000 Prize Jackpot!",
+    "is_spam": true,
+    "categories": [],
+    "predicted_label": "spam",
+    "actual_label": null,
+    "username": "abrakadabra",
+    "ip": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0",
+    "timestamp": "2025-04-29T03:24:33.894388"
+  },
+  {
+    "message": "dear candidate, thank you for your interest in avasoft. after careful preliminary evaluation, we regret to inform you that we will not be moving forward with your application at this time. this may be due to incomplete or inaccurate information, or the details not suiting the basic expectations of the job role, or other factors. we appreciate your time and effort and wish you the best in your job search. regards, aishwarya kesavan hr executive - avasoft alpha city (sspdl), 3rd floor | beta block, navalur | ch \u2013 600 130 www.avasoft.com (http://www.avasoft.com/) the contents of this e-mail and any attachment(s) are confidential and intended for the named recipient(s) only. e-mail transmission is not guaranteed to be secure or error-free as information could be intercepted, corrupted, lost, destroyed, arrive late or incomplete, or may contain viruses in transmission. the email and its contents (with or without referred errors) shall therefore not attach any liability on the originator or avasoft or its affiliates. views or opinions, if any, presented in this email are solely those of the author and may not necessarily reflect the views or opinions of avasoft or its affiliates. any form of reproduction, dissemination, copying, disclosure, modification, distribution and / or publication of this message without the prior written consent of authorized representative of avasoft is strictly prohibited. if you have received this email in error please delete it and notify the sender immediately. before opening any email and/or attachments, please check them for viruses and other defects.",
+    "is_spam": true,
+    "categories": [],
+    "predicted_label": "spam",
+    "actual_label": null,
+    "username": "abrakadabra",
+    "ip": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0",
+    "timestamp": "2025-04-29T03:26:13.318554"
+  },
+  {
+    "message": "congrats! you are shortlisted for an \u201conline group discussion\u201d of coditas solutions llp, pune | hiring for \u201cintern (software development)\u201d as fresher | recruitment drive organized by vibrantminds technologies pvt. ltd. |    greetings from vibrantminds technologies pvt. ltd. \u2013 a campus recruitment and online assessment & it training solutions company!   we, vibrantminds are happy to announce that the following candidates have been shortlisted for the online group discussion.    online group discussion schedule & further details:   company name: coditas solutions llp, pune position: intern (software development) internship duration: 06 months approx. stipend during internship: upto rs. 11,000/- per month. approx. package post internship: upto rs. 4,50,000/- per annum (based on performance during the internship, with a potential ctc of 4.5 lpa) job location: pune   next process: online group discussion date & time: today, 15th april 2025 at 03.00 pm sharp   google meet link: https://meet.google.com/ujh-hkpx-kqk   regards, vibrantminds technologies pvt. ltd. visit us: www.vibrantmindstech.com (http://www.vibrantmindstech.com/)  | 9503579517 | address: 2nd floor, viva building, near st. mary\u2019s church & vardhman petrol pump, mumbai- bangalore highway, warje, pune 411058 check our success stories: https://vibrantmindssuccessstories.blogspot.com/ instagram: https://www.instagram.com/vibrantminds_technologies/",
+    "is_spam": true,
+    "categories": [],
+    "predicted_label": "spam",
+    "actual_label": null,
+    "username": "abrakadabra",
+    "ip": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0",
+    "timestamp": "2025-04-29T03:35:44.580659"
+  },
+  {
+    "message": "congrats! you are shortlisted for an \u201conline group discussion\u201d of coditas solutions llp, pune | hiring for \u201cintern (software development)\u201d as fresher | recruitment drive organized by vibrantminds technologies pvt. ltd. |    greetings from vibrantminds technologies pvt. ltd. \u2013 a campus recruitment and online assessment & it training solutions company!   we, vibrantminds are happy to announce that the following candidates have been shortlisted for the online group discussion.    online group discussion schedule & further details:   company name: coditas solutions llp, pune position: intern (software development) internship duration: 06 months approx. stipend during internship: upto rs. 11,000/- per month. approx. package post internship: upto rs. 4,50,000/- per annum (based on performance during the internship, with a potential ctc of 4.5 lpa) job location: pune   next process: online group discussion date & time: today, 15th april 2025 at 03.00 pm sharp   google meet link: https://meet.google.com/ujh-hkpx-kqk   regards, vibrantminds technologies pvt. ltd. visit us: www.vibrantmindstech.com (http://www.vibrantmindstech.com/)  | 9503579517 | address: 2nd floor, viva building, near st. mary\u2019s church & vardhman petrol pump, mumbai- bangalore highway, warje, pune 411058 check our success stories: https://vibrantmindssuccessstories.blogspot.com/ instagram: https://www.instagram.com/vibrantminds_technologies/",
+    "is_spam": true,
+    "categories": [],
+    "predicted_label": "spam",
+    "actual_label": null,
+    "username": "abrakadabra",
+    "ip": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0",
+    "timestamp": "2025-04-29T03:36:55.345857"
+  },
+  {
+    "message": "Dear Candidate,\nThank you for your interest in AVASOFT. After careful preliminary evaluation, we regret to inform you that we will not be moving forward with your application at this time. This may be due to incomplete or inaccurate information, or the details not suiting the basic expectations of the job role, or other factors.\nWe appreciate your time and effort and wish you the best in your job search.\nRegards,\nAishwarya Kesavan\nHR Executive - AVASOFT\nAlpha City (SSPDL), 3rd Floor | Beta Block, Navalur | CH \u2013 600 130\nwww.avasoft.com (http://www.avasoft.com/)\n\n\nThe contents of this e-mail and any attachment(s) are confidential and intended for the named recipient(s) only. E-mail transmission is not guaranteed to be secure or error-free as information could be intercepted, corrupted, lost, destroyed, arrive late or incomplete, or may contain viruses in transmission. The email and its contents (with or without referred errors) shall therefore not attach any liability on the originator or AVASOFT or its affiliates. Views or opinions, if any, presented in this email are solely those of the author and may not necessarily reflect the views or opinions of AVASOFT or its affiliates. Any form of reproduction, dissemination, copying, disclosure, modification, distribution and / or publication of this message without the prior written consent of authorized representative of AVASOFT is strictly prohibited. If you have received this email in error please delete it and notify the sender immediately. Before opening any email and/or attachments, please check them for viruses and other defects.l",
+    "is_spam": true,
+    "predicted_label": "spam",
+    "evaluation": null,
+    "timestamp": "2025-05-07T01:02:45.264678",
+    "username": "jane",
+    "ip": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0"
+  },
+  {
+    "message": "Even my brother is not like to speak with me. They treat me like aids patent.",
+    "is_spam": true,
+    "predicted_label": "spam",
+    "evaluation": null,
+    "timestamp": "2025-05-09T23:51:11.275525",
+    "username": "hi",
+    "ip": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0"
+  },
+  {
+    "message": "Eh u remember how 2 spell his name... Yes i did. He v naughty make until i v wet",
+    "is_spam": true,
+    "predicted_label": "spam",
+    "evaluation": null,
+    "timestamp": "2025-05-09T23:51:49.717363",
+    "username": "hi",
+    "ip": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0"
+  },
+  {
+    "message": "XXXMobileMovieClub: To use your credit, click the WAP link in the next txt message or click here>> http://wap. xxxmobilemovieclub.com?n=QJKGIGHJJGCBL",
+    "is_spam": true,
+    "predicted_label": "spam",
+    "evaluation": null,
+    "timestamp": "2025-05-09T23:52:19.016822",
+    "username": "hi",
+    "ip": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0"
+  },
+  {
+    "message": "U dun say so early hor... U c already then say...",
+    "is_spam": true,
+    "predicted_label": "spam",
+    "evaluation": null,
+    "timestamp": "2025-05-09T23:52:53.235042",
+    "username": "hi",
+    "ip": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0"
+  },
+  {
+    "message": "Congrats!\u00a0You\u00a0are\u00a0shortlisted\u00a0for an \u201cOnline\u00a0Group\u00a0Discussion\u201d of\u00a0Coditas\u00a0Solutions\u00a0LLP,\u00a0Pune\u00a0| Hiring for \u201cIntern (Software Development)\u201d as Fresher | Recruitment Drive Organized by VibrantMinds Technologies Pvt. Ltd. |\u00a0\n\u00a0\nGreetings from\u00a0VibrantMinds Technologies Pvt. Ltd.\u00a0\u2013 A Campus Recruitment and\u00a0Online\u00a0Assessment & IT Training\u00a0Solutions\u00a0Company!\n\u00a0\nWe,\u00a0VibrantMinds\u00a0are happy to announce that the following candidates have been\u00a0shortlisted\u00a0for the\u00a0Online\u00a0Group\u00a0Discussion.\n\u00a0\n\u00a0Online\u00a0Group\u00a0Discussion\u00a0Schedule & Further Details:\n\u00a0\nCompany Name:\u00a0Coditas\u00a0Solutions\u00a0LLP,\u00a0Pune\nPosition:\u00a0Intern (Software Development)\nInternship Duration:\u00a006 Months\nApprox. Stipend during Internship:\u00a0Upto Rs. 11,000/- Per Month.\nApprox. Package Post Internship:\u00a0Upto Rs. 4,50,000/- Per Annum\n(Based on performance during the internship, with a potential CTC of 4.5 LPA)\nJob Location:\u00a0Pune\n\u00a0\nNext Process:\u00a0Online\u00a0Group\u00a0Discussion\nDate & Time:\u00a0Today, 15th April 2025 at 03.00 PM Sharp\n\u00a0\nGoogle Meet Link:\u00a0https://meet.google.com/ujh-hkpx-kqk\n\u00a0\nRegards,\nVibrantMinds Technologies Pvt. Ltd.\nVisit us:\u00a0www.vibrantmindstech.com (http://www.vibrantmindstech.com/)\u00a0\u00a0| 9503579517 |\nAddress:\u00a02nd Floor, Viva Building, Near St. Mary\u2019s Church & Vardhman Petrol Pump, Mumbai- Bangalore Highway, Warje,\u00a0Pune\u00a0411058\nCheck our Success Stories:\u00a0https://vibrantmindssuccessstories.blogspot.com/\nInstagram:\u00a0https://www.instagram.com/vibrantminds_technologies/",
+    "is_spam": true,
+    "predicted_label": "spam",
+    "evaluation": null,
+    "timestamp": "2025-05-09T23:53:20.032024",
+    "username": "hi",
+    "ip": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0"
+  },
+  {
+    "message": "Dear Candidate,\nThank you for your interest in AVASOFT. After careful preliminary evaluation, we regret to inform you that we will not be moving forward with your application at this time. This may be due to incomplete or inaccurate information, or the details not suiting the basic expectations of the job role, or other factors.\nWe appreciate your time and effort and wish you the best in your job search.\nRegards,\nAishwarya Kesavan\nHR Executive - AVASOFT\nAlpha City (SSPDL), 3rd Floor | Beta Block, Navalur | CH \u2013 600 130\nwww.avasoft.com (http://www.avasoft.com/)\n\n\nThe contents of this e-mail and any attachment(s) are confidential and intended for the named recipient(s) only. E-mail transmission is not guaranteed to be secure or error-free as information could be intercepted, corrupted, lost, destroyed, arrive late or incomplete, or may contain viruses in transmission. The email and its contents (with or without referred errors) shall therefore not attach any liability on the originator or AVASOFT or its affiliates. Views or opinions, if any, presented in this email are solely those of the author and may not necessarily reflect the views or opinions of AVASOFT or its affiliates. Any form of reproduction, dissemination, copying, disclosure, modification, distribution and / or publication of this message without the prior written consent of authorized representative of AVASOFT is strictly prohibited. If you have received this email in error please delete it and notify the sender immediately. Before opening any email and/or attachments, please check them for viruses and other defects.l",
+    "is_spam": true,
+    "predicted_label": "spam",
+    "evaluation": null,
+    "timestamp": "2025-05-09T23:54:26.434196",
+    "username": "hi",
+    "ip": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0"
+  },
+  {
+    "message": "dear candidate, thank you for your interest in avasoft. after careful preliminary evaluation, we regret to inform you that we will not be moving forward with your application at this time. this may be due to incomplete or inaccurate information, or the details not suiting the basic expectations of the job role, or other factors. we appreciate your time and effort and wish you the best in your job search. regards, aishwarya kesavan hr executive - avasoft alpha city (sspdl), 3rd floor | beta block, navalur | ch \u2013 600 130 www.avasoft.com (http://www.avasoft.com/) the contents of this e-mail and any attachment(s) are confidential and intended for the named recipient(s) only. e-mail transmission is not guaranteed to be secure or error-free as information could be intercepted, corrupted, lost, destroyed, arrive late or incomplete, or may contain viruses in transmission. the email and its contents (with or without referred errors) shall therefore not attach any liability on the originator or avasoft or its affiliates. views or opinions, if any, presented in this email are solely those of the author and may not necessarily reflect the views or opinions of avasoft or its affiliates. any form of reproduction, dissemination, copying, disclosure, modification, distribution and / or publication of this message without the prior written consent of authorized representative of avasoft is strictly prohibited. if you have received this email in error please delete it and notify the sender immediately. before opening any email and/or attachments, please check them for viruses and other defects.",
+    "is_spam": true,
+    "predicted_label": "spam",
+    "evaluation": null,
+    "timestamp": "2025-05-10T01:51:09.687960",
+    "username": "admin",
+    "ip": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0"
+  },
+  {
+    "message": "congrats! you are shortlisted for an \u201conline group discussion\u201d of coditas solutions llp, pune | hiring for \u201cintern (software development)\u201d as fresher | recruitment drive organized by vibrantminds technologies pvt. ltd. |    greetings from vibrantminds technologies pvt. ltd. \u2013 a campus recruitment and online assessment & it training solutions company!   we, vibrantminds are happy to announce that the following candidates have been shortlisted for the online group discussion.    online group discussion schedule & further details:   company name: coditas solutions llp, pune position: intern (software development) internship duration: 06 months approx. stipend during internship: upto rs. 11,000/- per month. approx. package post internship: upto rs. 4,50,000/- per annum (based on performance during the internship, with a potential ctc of 4.5 lpa) job location: pune   next process: online group discussion date & time: today, 15th april 2025 at 03.00 pm sharp   google meet link: https://meet.google.com/ujh-hkpx-kqk   regards, vibrantminds technologies pvt. ltd. visit us: www.vibrantmindstech.com (http://www.vibrantmindstech.com/)  | 9503579517 | address: 2nd floor, viva building, near st. mary\u2019s church & vardhman petrol pump, mumbai- bangalore highway, warje, pune 411058 check our success stories: https://vibrantmindssuccessstories.blogspot.com/ instagram: https://www.instagram.com/vibrantminds_technologies/\n",
+    "is_spam": false,
+    "predicted_label": "ham",
+    "evaluation": null,
+    "timestamp": "2025-05-10T01:51:48.123170",
+    "username": "admin",
+    "ip": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0"
+  },
+  {
+    "message": "congrats!\u00a0you\u00a0are\u00a0shortlisted\u00a0for an \u201conline\u00a0group\u00a0discussion\u201d of\u00a0coditas\u00a0solutions\u00a0llp,\u00a0pune\u00a0| hiring for \u201cintern (software development)\u201d as fresher | recruitment drive organized by vibrantminds technologies pvt. ltd. |\u00a0\n\u00a0\ngreetings from\u00a0vibrantminds technologies pvt. ltd.\u00a0\u2013 a campus recruitment and\u00a0online\u00a0assessment & it training\u00a0solutions\u00a0company!\n\u00a0\nwe,\u00a0vibrantminds\u00a0are happy to announce that the following candidates have been\u00a0shortlisted\u00a0for the\u00a0online\u00a0group\u00a0discussion.\n\u00a0\n\u00a0online\u00a0group\u00a0discussion\u00a0schedule & further details:\n\u00a0\ncompany name:\u00a0coditas\u00a0solutions\u00a0llp,\u00a0pune\nposition:\u00a0intern (software development)\ninternship duration:\u00a006 months\napprox. stipend during internship:\u00a0upto rs. 11,000/- per month.\napprox. package post internship:\u00a0upto rs. 4,50,000/- per annum\n(based on performance during the internship, with a potential ctc of 4.5 lpa)\njob location:\u00a0pune\n\u00a0\nnext process:\u00a0online\u00a0group\u00a0discussion\ndate & time:\u00a0today, 15th april 2025 at 03.00 pm sharp\n\u00a0\ngoogle meet link:\u00a0https://meet.google.com/ujh-hkpx-kqk\n\u00a0\nregards,\nvibrantminds technologies pvt. ltd.\nvisit us:\u00a0www.vibrantmindstech.com (http://www.vibrantmindstech.com/)\u00a0\u00a0| 9503579517 |\naddress:\u00a02nd floor, viva building, near st. mary\u2019s church & vardhman petrol pump, mumbai- bangalore highway, warje,\u00a0pune\u00a0411058\ncheck our success stories:\u00a0https://vibrantmindssuccessstories.blogspot.com/\ninstagram:\u00a0https://www.instagram.com/vibrantminds_technologies/",
+    "is_spam": false,
+    "predicted_label": "ham",
+    "evaluation": null,
+    "timestamp": "2025-05-10T03:12:29.269106",
+    "username": "jane"
+  },
+  {
+    "message": "dear candidate, thank you for your interest in avasoft. after careful preliminary evaluation, we regret to inform you that we will not be moving forward with your application at this time. this may be due to incomplete or inaccurate information, or the details not suiting the basic expectations of the job role, or other factors. we appreciate your time and effort and wish you the best in your job search. regards, aishwarya kesavan hr executive - avasoft alpha city (sspdl), 3rd floor | beta block, navalur | ch \u2013 600 130 www.avasoft.com (http://www.avasoft.com/) the contents of this e-mail and any attachment(s) are confidential and intended for the named recipient(s) only. e-mail transmission is not guaranteed to be secure or error-free as information could be intercepted, corrupted, lost, destroyed, arrive late or incomplete, or may contain viruses in transmission. the email and its contents (with or without referred errors) shall therefore not attach any liability on the originator or avasoft or its affiliates. views or opinions, if any, presented in this email are solely those of the author and may not necessarily reflect the views or opinions of avasoft or its affiliates. any form of reproduction, dissemination, copying, disclosure, modification, distribution and / or publication of this message without the prior written consent of authorized representative of avasoft is strictly prohibited. if you have received this email in error please delete it and notify the sender immediately. before opening any email and/or attachments, please check them for viruses and other defects.",
+    "is_spam": true,
+    "categories": [],
+    "predicted_label": "spam",
+    "username": "jane",
+    "ip": "127.0.0.1",
+    "user_agent": "unknown",
+    "timestamp": "2025-06-10T03:23:14.361788"
+  },
+  {
+    "message": "congrats! you are shortlisted for an \u201conline group discussion\u201d of coditas solutions llp, pune | hiring for \u201cintern (software development)\u201d as fresher | recruitment drive organized by vibrantminds technologies pvt. ltd. | greetings from vibrantminds technologies pvt. ltd. \u2013 a campus recruitment and online assessment & it training solutions company! we, vibrantminds are happy to announce that the following candidates have been shortlisted for the online group discussion. online group discussion schedule & further details: company name: coditas solutions llp, pune position: intern (software development) internship duration: 06 months approx. stipend during internship: upto rs. 11,000/- per month. approx. package post internship: upto rs. 4,50,000/- per annum (based on performance during the internship, with a potential ctc of 4.5 lpa) job location: pune next process: online group discussion date & time: today, 15th april 2025 at 03.00 pm sharp google meet link: https://meet.google.com/ujh-hkpx-kqk regards, vibrantminds technologies pvt. ltd. visit us: www.vibrantmindstech.com (http://www.vibrantmindstech.com/) | 9503579517 | address: 2nd floor, viva building, near st. mary\u2019s church & vardhman petrol pump, mumbai- bangalore highway, warje, pune 411058 check our success stories: https://vibrantmindssuccessstories.blogspot.com/ instagram: https://www.instagram.com/vibrantminds_technologies/",
+    "is_spam": false,
+    "categories": [],
+    "predicted_label": "ham",
+    "username": "jane",
+    "ip": "127.0.0.1",
+    "user_agent": "unknown",
+    "timestamp": "2025-06-10T03:24:11.974952"
+  },
+  {
+    "message": "six chances to win cash! from 100 to 20,000 pounds txt> csh11 and send to 87575. cost 150p/day, 6days, 16+ tsandcs apply reply hl 4 info\t\t\t\n",
+    "is_spam": false,
+    "categories": [],
+    "predicted_label": "ham",
+    "username": "lakshy_j",
+    "ip": "127.0.0.1",
+    "user_agent": "unknown",
+    "timestamp": "2025-06-10T12:00:27.772111"
+  },
+  {
+    "message": "six chances to win cash! from 100 to 20,000 pounds txt> csh11 and send to 87575. cost 150p/day, 6days, 16+ tsandcs apply reply hl 4 info\t\t\t\n",
+    "is_spam": false,
+    "categories": [],
+    "predicted_label": "ham",
+    "username": "lakshy_j",
+    "ip": "127.0.0.1",
+    "user_agent": "unknown",
+    "timestamp": "2025-06-10T12:00:32.713330"
+  },
+  {
+    "message": "six chances to win cash! from 100 to 20,000 pounds txt> csh11 and send to 87575. cost 150p/day, 6days, 16+ tsandcs apply reply hl 4 info\t\t\t\n",
+    "is_spam": false,
+    "categories": [],
+    "predicted_label": "ham",
+    "username": "lakshy_j",
+    "ip": "127.0.0.1",
+    "user_agent": "unknown",
+    "timestamp": "2025-06-10T12:03:53.194767"
+  },
+  {
+    "message": "winner!! as a valued network customer you have been selected to receivea \u00e5\u00a3900 prize reward! to claim call 09061701461. claim code kl341. valid 12 hours only.\t\t\t\nhad your mobile 11 months or more? u r entitled to update to the latest colour mobiles with camera for free! call the mobile update co free on 08002986030\t\t\t\n",
+    "is_spam": true,
+    "categories": [],
+    "predicted_label": "spam",
+    "username": "lakshy_j",
+    "ip": "127.0.0.1",
+    "user_agent": "unknown",
+    "timestamp": "2025-06-10T12:04:06.261333"
+  },
+  {
+    "message": "dear candidate, thank you for your interest in avasoft. after careful preliminary evaluation, we regret to inform you that we will not be moving forward with your application at this time. this may be due to incomplete or inaccurate information, or the details not suiting the basic expectations of the job role, or other factors. we appreciate your time and effort and wish you the best in your job search. regards, aishwarya kesavan hr executive - avasoft alpha city (sspdl), 3rd floor | beta block, navalur | ch \u2013 600 130 www.avasoft.com (http://www.avasoft.com/) the contents of this e-mail and any attachment(s) are confidential and intended for the named recipient(s) only. e-mail transmission is not guaranteed to be secure or error-free as information could be intercepted, corrupted, lost, destroyed, arrive late or incomplete, or may contain viruses in transmission. the email and its contents (with or without referred errors) shall therefore not attach any liability on the originator or avasoft or its affiliates. views or opinions, if any, presented in this email are solely those of the author and may not necessarily reflect the views or opinions of avasoft or its affiliates. any form of reproduction, dissemination, copying, disclosure, modification, distribution and / or publication of this message without the prior written consent of authorized representative of avasoft is strictly prohibited. if you have received this email in error please delete it and notify the sender immediately. before opening any email and/or attachments, please check them for viruses and other defects.",
+    "is_spam": true,
+    "categories": [],
+    "predicted_label": "spam",
+    "username": "jj",
+    "ip": "127.0.0.1",
+    "user_agent": "unknown",
+    "timestamp": "2025-06-10T12:51:02.745297"
+  },
+  {
+    "message": "i'm gonna be home soon and i don't want to talk about this stuff anymore tonight, k? i've cried enough today.\t\t\t\n",
+    "is_spam": false,
+    "categories": [],
+    "predicted_label": "ham",
+    "username": "jj",
+    "ip": "127.0.0.1",
+    "user_agent": "unknown",
+    "timestamp": "2025-06-10T12:52:16.196623"
+  }
+]
